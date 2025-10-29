@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: crud-backend
+    name: crud-demo
     env: java
-    rootDir: backend
+    rootDir: demo
     buildCommand: "./mvnw clean package -DskipTests"
     startCommand: "java -jar target/crud-0.0.1-SNAPSHOT.jar"
     envVars:
